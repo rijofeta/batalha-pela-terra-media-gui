@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projeto.projetofinalgui.controllers.SceneInicialController">
+   <children>
+      <Label fx:id="labelTitulo" alignment="CENTER" contentDisplay="CENTER" text="Batalha pela Terra Média">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+         </VBox.margin>
+      </Label>
+      <TextArea disable="true" editable="false" pickOnBounds="false" text="Nesta batalha, Heróis e Bestas irão enfrentar-se para determinar quem reinará sobre a terra média. &#10;&#10;Cabe a cada um dos jogadores construir o respetivo exército para que se enfrentem numa batalha até à morte." wrapText="true">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </TextArea>
+      <Button fx:id="botaoComecar" mnemonicParsing="false" onAction="#mudarParaSceneSelecao" text="Começar!">
+         <VBox.margin>
+            <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

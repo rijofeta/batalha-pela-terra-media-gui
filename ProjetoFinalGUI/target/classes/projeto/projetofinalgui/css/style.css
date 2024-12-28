@@ -1,0 +1,97 @@
+#labelTitulo {
+  -fx-font-size: 80;
+  -fx-font-weight: bold;
+}
+
+#botaoComecar, #botaoBatalha, #botaoJogarNovamente, #botaoSair {
+  -fx-font-size: 20;
+}
+
+#labelSelecao, #labelFinal {
+  -fx-font-size: 60;
+  -fx-font-weight: bold;
+}
+
+#labelHerois, #labelBestas {
+  -fx-font-size: 40;
+  -fx-font-weight: bold;
+}
+
+#labelBatalha, .tipoLabelBatalha {
+  -fx-font-size: 20;
+  -fx-font-weight: bold;
+}
+
+#textAreaBatalha {
+  -fx-control-inner-background: #bf9c8c;
+  -fx-background-color: -fx-control-inner-background;
+  -fx-background-insets: 0;
+  -fx-text-box-border: transparent;
+  -fx-focus-color: transparent;
+  -fx-text-fill: #714513;
+  -fx-font-size: 15;
+  -fx-opacity: 1;
+}
+
+.list-view {
+  -fx-background-color: #bf9c8c;
+}
+
+.list-cell {
+  -fx-background-color: #bf9c8c;
+  -fx-font-size: 15;
+  -fx-text-fill: #714513;
+}
+
+.list-cell:selected {
+  -fx-background-color: #714513;
+  -fx-text-fill: #1e0d05;
+}
+
+.root {
+  -fx-font-family: 'Ringbearer', 'Aniron';
+  -fx-background-color: #1e0d05;
+}
+
+.text-area {
+  -fx-control-inner-background: #1e0d05;
+  -fx-background-color: -fx-control-inner-background;
+  -fx-background-insets: 0;
+  -fx-text-box-border: transparent;
+  -fx-focus-color: transparent;
+  -fx-text-fill: #f08c1e;
+  -fx-font-size: 20;
+  -fx-opacity: 1;
+}
+
+.label {
+  -fx-text-fill: #f08c1e;
+}
+
+.button {
+  -fx-text-fill: #1e0d05;
+  -fx-background-color: #f08c1e;
+  -fx-border-color: #f08c1e;
+  -fx-background-radius: 5px;
+  -fx-border-radius: 5px;
+}
+
+.button:hover {
+  -fx-text-fill: #f08c1e;
+  -fx-background-color: #1e0d05;
+}
+
+.scroll-bar, .increment-button, .decrement-button, .corner {
+  -fx-background-color: #1e0d05;
+}
+
+.thumb, .increment-arrow, .decrement-arrow {
+  -fx-background-color: #714513;
+}
+
+.increment-button:hover, .decrement-button:hover {
+  -fx-background-color: #bf9c8c;
+}
+
+
+
